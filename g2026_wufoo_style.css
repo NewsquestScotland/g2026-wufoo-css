@@ -1,14 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;800&display=swap');
 
 body {
   background: linear-gradient(90deg, #00C4C9 0%, #F259B0 50%, #263CC8 100%);
   font-family: 'Fira Sans', sans-serif;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 #wrapper, .wufoo {
-  background: rgba(0, 0, 0, 0.6);
+  background: #FFFFFF;
   border-radius: 12px;
   padding: 30px;
   max-width: 700px;
@@ -16,19 +15,22 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
+/* Headings */
 h1, h2, legend {
   font-weight: 800;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #263CC8;
   letter-spacing: 1px;
 }
 
+/* Labels */
 label.desc, .form div span {
   font-weight: 600;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #000000;
 }
 
+/* Input fields */
 input.text, textarea.textarea, select.select {
   background-color: #FFFFFF;
   color: #000000;
@@ -40,6 +42,7 @@ input.text, textarea.textarea, select.select {
   width: 100%;
 }
 
+/* Submit button */
 input.btTxt {
   background-color: #51129B;
   color: #FFFFFF;
@@ -57,10 +60,12 @@ input.btTxt:hover {
   background-color: #F259B0;
 }
 
+/* Required asterisk */
 span.req {
   color: #FFCE2E;
 }
 
+/* Wufoo footer */
 #footer, #logo {
   display: none;
 }
