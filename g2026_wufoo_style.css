@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;800&display=swap');
+
+body {
+  background: linear-gradient(90deg, #00C4C9 0%, #F259B0 50%, #263CC8 100%);
+  font-family: 'Fira Sans', sans-serif;
+  color: #FFFFFF;
+}
+
+#wrapper, .wufoo {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 700px;
+  margin: 40px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h1, h2, legend {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+label.desc, .form div span {
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+input.text, textarea.textarea, select.select {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #F259B0;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  width: 100%;
+}
+
+input.btTxt {
+  background-color: #51129B;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+input.btTxt:hover {
+  background-color: #F259B0;
+}
+
+span.req {
+  color: #FFCE2E;
+}
+
+#footer, #logo {
+  display: none;
+}
